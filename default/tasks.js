@@ -17,7 +17,8 @@ function hasDir(directory) {
 }
 
 function isNative() {
-    return hasDir('ios') || hasDir('android');
+    return true
+    // return hasDir('ios') || hasDir('android');
 }
 
 module.exports = function (answers) {
